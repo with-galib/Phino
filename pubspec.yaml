@@ -1,0 +1,54 @@
+name: fs_by_gal1b
+description: FS by GAL1B - Cross-platform file sharing app (Android & iOS)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # File picker - browse & select files
+  file_picker: ^8.1.2
+
+  # HTTP server - sender hosts a server
+  shelf: ^1.4.1
+  shelf_router: ^1.1.4
+
+  # HTTP client - receiver downloads the file
+  dio: ^5.4.0
+
+  # Network info - get device IP address
+  network_info_plus: ^5.0.0
+
+  # Open/view downloaded files
+  open_filex: ^4.3.4
+
+  # Show download path to user
+  path_provider: ^2.1.2
+
+  # Permissions (storage, local network)
+  permission_handler: ^11.3.0
+
+  # Device info - get device model name
+  device_info_plus: ^10.1.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
