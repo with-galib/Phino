@@ -68,7 +68,7 @@ Built with Flutter by **Galib** — works seamlessly between Android devices.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/phino.git
+git clone https://github.com/with-galib/Phino.git
 
 # Navigate into the project
 cd phino
