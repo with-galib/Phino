@@ -18,7 +18,7 @@ import 'package:open_filex/open_filex.dart' as open_filex;
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:path/path.dart' as p;
 
-// App entry point | by Galib
+// App entry point  |  by Galib
 void main() {
   runApp(const FileShareApp());
 }
